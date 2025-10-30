@@ -14,5 +14,7 @@ main() {
         b=reste;
      }
     printf("Le pgcd est %d:",a);
+    if (a==0) 
+    printf("les deux nombres choisis sont premiers entre eux.")
     return 0;
 }
